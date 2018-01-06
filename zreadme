@@ -7,6 +7,18 @@ We only need to include one line of PHP code.
 <?php header( 'Location: /index.html' ) ;  ?>
 
 
+//Login in heroku:
+$ heroku login
+Enter your Heroku credentials:
+Email: michaelzhuang16@gmail.com
+Password: ********
+Logged in as michaelzhuang16@gmail.com
+
+//push to heroku from git:
+$ heroku apps:create dongpo16
+Creating dongpo16... done
+https://dongpo16.herokuapp.com/ | https://git.heroku.com/dongpo16.git
+$ git push heroku master
 
 ----------------
 create a new repository on the command line:
